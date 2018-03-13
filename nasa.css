@@ -1,0 +1,117 @@
+html {
+  background-image: url(space2.jpg);
+  background-size: cover;
+}
+
+.toplist {}
+
+.logo {
+  width: 12em;
+  height: 10em;
+}
+
+.toplist ul {
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+}
+
+.toplist li {
+  float: left;
+  font-size: 1.25em;
+  padding: 1em;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.toplist li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background-size: contain;
+}
+
+.toplist li a:hover {
+  background-color: blue;
+  display: block;
+}
+
+.sublist {
+  color: white;
+}
+
+.sublist ul {
+  display: inline-block;
+  list-style-type: none;
+  color: black;
+  background-color: grey;
+  opacity: .8;
+}
+
+.sublist li {
+  float: left;
+  font-size: 20px;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sublist li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sublist li:hover {
+  background-color: #FFF;
+  display: block;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  background-color: grey;
+  padding: inherit;
+  margin right: 30px;
+  color: white;
+  opacity: .8;
+}
+
+.sunpic {
+  width: 50%;
+  height: 50%;
+}
+
+.text-block p {
+  text-decoration: none;
+  font-size: 1.25em;
+  padding: 0px;
+  margin: 0px;
+  style: none;
+}
+
+.text-block p:hover {
+  display: block;
+  background-color: white;
+  padding: inherit;
+}
+
+.stars2 {
+  width: 25%;
+}
+
+.stars3 {
+  width: 25%;
+}
